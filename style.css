@@ -205,6 +205,7 @@ img { display: block; max-width: 100%; }
   font-size: clamp(14px, 1.2vw, 17px);
   color: var(--text2) !important;
   transition: color var(--transition);
+  line-height: 1;
 }
 .contact-link:hover { color: var(--text) !important; }
 .contact-link svg { flex-shrink: 0; }
