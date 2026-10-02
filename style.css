@@ -134,7 +134,7 @@ img { display: block; max-width: 100%; }
 }
 .hero-label {
   font-family: var(--mono);
-  font-size: clamp(12px, 1.05vw, 15px);
+  font-size: clamp(14px, 1.25vw, 17px);
   color: var(--accent);
   letter-spacing: 2px;
   text-transform: uppercase;
@@ -154,7 +154,7 @@ img { display: block; max-width: 100%; }
 }
 .hero-tagline {
   font-family: var(--mono);
-  font-size: clamp(14px, 1.35vw, 20px);
+  font-size: clamp(16px, 1.65vw, 20px);
   color: var(--text2);
   margin-bottom: 48px;
   opacity: 0;
@@ -202,7 +202,7 @@ img { display: block; max-width: 100%; }
   display: flex;
   align-items: center;
   gap: 7px;
-  font-size: clamp(13px, 1.15vw, 17px);
+  font-size: clamp(16px, 1.35vw, 19px);
   color: var(--text2) !important;
   transition: color var(--transition);
 }
