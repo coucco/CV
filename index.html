@@ -26,7 +26,7 @@
     <div class="hero-inner">
       <div class="hero-label">ВШЭ · ФКН · ПМИ · 2023-2027</div>
       <h1 class="hero-name">Тимур<br/>Шокаров</h1>
-      <p class="hero-tagline">R&D · ML · Analytics · Management</p>
+      <p class="hero-tagline">R&D · ML · Analytics · Management</p> <!--
       <div class="hero-stats">
         <div class="stat">
           <span class="stat-num">2</span>
@@ -42,7 +42,7 @@
           <span class="stat-num">3</span>
           <span class="stat-label">Диплома олимпиад</span>
         </div>
-      </div>
+      </div> -->
       <div class="hero-contacts">
         <a href="mailto:timurshokarov1001@gmail.com" class="contact-link">
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 7L2 7"/></svg>
@@ -82,9 +82,13 @@
             <h3 class="job-role">Деливери Менеджер</h3>
             <p class="job-team">Центр Технологий Кибербезопасности · Департамент разработки</p>
             <ul class="job-items">
+              <li>Сопровождаю проекты Управляющей Команды департамента, Разрабатываю и внедряю решения для аналитики и менеджмента, фасилитирую встречи</li>
               <li><strong>Kronos</strong> - Cloud-native вычислительная платформа для аналитики и ETL пайплайнов: разработал и задеплоил решение </li>
               <li><strong>Дашборд поставки релизов</strong> - Разработал решение на основе Metabase, форкнул и дописал компонент визуализации, задеплоил во внутрикорпоративную инфраструктуру, интегрировал с Datalake</li>
             </ul>
+            <div class="job-tags">
+              <span class="tag">Python</span><span class="tag">NodeJS</span><span class="tag">Metabase</span><span class="tag">SQL</span><span class="tag">Miro + Notes</span>
+            </div>
           </div>
         </article>
 
@@ -100,6 +104,9 @@
               <li><strong>Digest Maker</strong> - LLM-агент, который собирает внешний и внутренний контекст из множества источников и объясняет поведение бизнес-метрик; автоматизирует рутинный анализ аналитиков</li>
               <li><strong>NFS Dogfooding</strong> - бот агрегирует сообщения о багах в сервисах Т-Города, формирует структурированный отчёт по всем сервисам с ссылками на источники для менеджеров</li>
             </ul>
+            <div class="job-tags">
+              <span class="tag">n8n</span><span class="tag">Helicopter</span><span class="tag">ML Core</span><span class="tag">Python</span><span class="tag">SQL</span><span class="tag">GPT API</span>
+            </div>
           </div>
         </article>
 
@@ -133,7 +140,7 @@
               <li>Разработал сервис на C++ (фреймворк Qt): собирает коллаж из тысяч пользовательских фотографий</li>
             </ul>
             <div class="job-tags">
-              <span class="tag">C++</span><span class="tag">Qt</span>
+              <span class="tag">C++</span><span class="tag">Qt</span><span class="tag">Tarantool</span>
             </div>
           </div>
         </article>
@@ -146,6 +153,41 @@
       <h2 class="section-title">Проекты</h2>
 
       <div class="projects-grid">
+
+        <article class="project-card reveal" data-href="https://arxiv.org/abs/2609.27581">
+          <div class="project-header">
+            <div>
+              <span class="project-label">R&D ML preprint · LLM Scaling</span>
+              <h3 class="project-name">Step Law · Малые LLM</h3>
+            </div>
+            <a href="https://github.com/coucco/Step-Law-for-small-LM" target="_blank" class="project-link-icon" aria-label="GitHub">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0 1 12 6.844a9.59 9.59 0 0 1 2.504.337c1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.02 10.02 0 0 0 22 12.017C22 6.484 17.522 2 12 2z"/></svg>
+            </a>
+          </div>
+          <p class="project-desc">Проверка степенного закона для оптимальных гиперпараметров предобучения LLM (N &lt; 59M) - области, не охваченной авторами оригинальной статьи. Выпустили препринт статьи на arXiv.org</p>
+          <div class="project-metrics">
+            <div class="metric">
+              <span class="metric-val">935</span>
+              <span class="metric-key">запусков</span>
+            </div>
+            <div class="metric">
+              <span class="metric-val">4×</span>
+              <span class="metric-key">завышение η*</span>
+            </div>
+            <div class="metric">
+              <span class="metric-val">R²=0.95</span>
+              <span class="metric-key">batch size fit</span>
+            </div>
+          </div>
+          <ul class="project-bullets">
+            <li>Перекалиброванная формула: η̂* ≈ 0.1·N⁻⁰·⁵¹·D⁰·²⁴, B̂* ∝ D⁰·⁹³</li>
+            <li>Воспроизвели структурный тезис: B* не зависит от N (p=0.87)</li>
+            <li>Открытый бенчмарк: логи 935 запусков, конфиги, скрипты refit</li>
+          </ul>
+          <div class="project-tags">
+            <span class="tag">PyTorch</span><span class="tag">nanoGPT</span><span class="tag">AdamW</span><span class="tag">BPE</span>
+          </div>
+        </article>
 
         <article class="project-card reveal" data-href="https://github.com/coucco/SSLR">
           <div class="project-header">
@@ -182,42 +224,7 @@
           </div>
         </article>
 
-        <article class="project-card reveal" data-href="https://github.com/kunikrubika05/step-law-small-scale">
-          <div class="project-header">
-            <div>
-              <span class="project-label">ML Research · LLM Scaling</span>
-              <h3 class="project-name">Step Law · Малые LLM</h3>
-            </div>
-            <a href="https://github.com/coucco/Step-Law-for-small-LM" target="_blank" class="project-link-icon" aria-label="GitHub">
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0 1 12 6.844a9.59 9.59 0 0 1 2.504.337c1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.02 10.02 0 0 0 22 12.017C22 6.484 17.522 2 12 2z"/></svg>
-            </a>
-          </div>
-          <p class="project-desc">Проверка степенного закона для оптимальных гиперпараметров предобучения LLM (N &lt; 59M) - области, не охваченной авторами оригинальной статьи.</p>
-          <div class="project-metrics">
-            <div class="metric">
-              <span class="metric-val">935</span>
-              <span class="metric-key">запусков</span>
-            </div>
-            <div class="metric">
-              <span class="metric-val">4×</span>
-              <span class="metric-key">завышение η*</span>
-            </div>
-            <div class="metric">
-              <span class="metric-val">R²=0.95</span>
-              <span class="metric-key">batch size fit</span>
-            </div>
-          </div>
-          <ul class="project-bullets">
-            <li>Перекалиброванная формула: η̂* ≈ 0.1·N⁻⁰·⁵¹·D⁰·²⁴, B̂* ∝ D⁰·⁹³</li>
-            <li>Воспроизвели структурный тезис: B* не зависит от N (p=0.87)</li>
-            <li>Открытый бенчмарк: логи 935 запусков, конфиги, скрипты refit</li>
-          </ul>
-          <div class="project-tags">
-            <span class="tag">PyTorch</span><span class="tag">nanoGPT</span><span class="tag">AdamW</span><span class="tag">BPE</span>
-          </div>
-        </article>
-
-        <article class="project-card reveal" data-href="https://github.com/coucco/3d_engine_on_c">
+        <article class="project-card reveal" data-href="https://cs.hse.ru/cppr/best_projects/3d_renderer_from_scratch">
           <div class="project-header">
             <div>
               <span class="project-label">Systems · Graphics</span>
@@ -227,7 +234,7 @@
               <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0 1 12 6.844a9.59 9.59 0 0 1 2.504.337c1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.02 10.02 0 0 0 22 12.017C22 6.484 17.522 2 12 2z"/></svg>
             </a>
           </div>
-          <p class="project-desc"> 3D рендер на C++ с нуля. Защищён как курсовая - оценка 10/10. Комиссия признала работу лучшей.</p>
+          <p class="project-desc"> 3D рендер на C++ с нуля. Защищён как курсовая - оценка 10/10. Комиссия признала работу лучшей и опубликовала на странице</p>
           <ul class="project-bullets">
             <li>Растеризация полигонов, z-буфер, освещение по Фонгу</li>
             <li>Сглаживание интерполяцией нормалей вершин</li>
@@ -258,66 +265,6 @@
           </div>
         </article>
 
-      </div>
-    </section>
-
-    <!-- SKILLS -->
-    <section class="section" id="skills">
-      <h2 class="section-title">Навыки</h2>
-      <div class="skills-grid reveal">
-        <div class="skill-group">
-          <h4 class="skill-group-title">Языки</h4>
-          <div class="skill-chips">
-            <span class="chip chip-primary">C++ 17/20</span>
-            <span class="chip chip-primary">Python</span>
-            <span class="chip chip-primary">Rust</span>
-            <span class="chip">PostgreSQL</span>
-            <span class="chip">YQL</span>
-            <span class="chip">Assembly x86</span>
-          </div>
-        </div>
-        <div class="skill-group">
-          <h4 class="skill-group-title">ML / Data</h4>
-          <div class="skill-chips">
-            <span class="chip chip-primary">PyTorch</span>
-            <span class="chip chip-primary">TensorFlow</span>
-            <span class="chip">Pandas</span>
-            <span class="chip">NumPy</span>
-            <span class="chip">Matplotlib</span>
-            <span class="chip">Magenta</span>
-          </div>
-        </div>
-        <div class="skill-group">
-          <h4 class="skill-group-title">Фреймворки</h4>
-          <div class="skill-chips">
-            <span class="chip">Qt</span>
-            <span class="chip">Tokio</span>
-            <span class="chip">FastAPI</span>
-            <span class="chip">SDL2</span>
-          </div>
-        </div>
-        <div class="skill-group">
-          <h4 class="skill-group-title">Инструменты</h4>
-          <div class="skill-chips">
-            <span class="chip">Git</span>
-            <span class="chip">Bash</span>
-            <span class="chip">Vim</span>
-            <span class="chip">Nirvana (Яндекс)</span>
-            <span class="chip">LaTeX</span>
-            <span class="chip">Docker</span>
-          </div>
-        </div>
-        <div class="skill-group">
-          <h4 class="skill-group-title">Курсы ВШЭ</h4>
-          <div class="skill-chips">
-            <span class="chip">Линейная алгебра</span>
-            <span class="chip">Матанализ</span>
-            <span class="chip">Теория вероятностей</span>
-            <span class="chip">Мат. статистика</span>
-            <span class="chip">Алгоритмы и СД</span>
-            <span class="chip">Дискретная математика</span>
-          </div>
-        </div>
       </div>
     </section>
 
@@ -360,6 +307,121 @@
             <p class="ach-sub">Международная лаборатория теоретической информатики</p>
           </div>
         </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="section" id="skills">
+      <h2 class="section-title">Навыки</h2>
+      <div class="skills-grid reveal">
+
+        <div class="skill-group">
+          <h4 class="skill-group-title">Языки и стек</h4>
+          <div class="skill-chips">
+            <span class="chip chip-primary">Python</span>
+            <span class="chip chip-primary">C++ 17/20</span>
+            <span class="chip chip-primary">Rust</span>
+            <span class="chip">SQL: PostgreSQL, Trino, Greenplum, SQLite, YQL</span>
+            <span class="chip">Bash</span>
+            <span class="chip">Assembly x86</span>
+            <span class="chip">C</span>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <h4 class="skill-group-title">ML / DL Frameworks</h4>
+          <div class="skill-chips">
+            <span class="chip chip-primary">PyTorch</span>
+            <span class="chip chip-primary">TensorFlow</span>
+            <span class="chip">Keras</span>
+            <span class="chip">Magenta (Music VAE)</span>
+            <span class="chip">nanoGPT</span>
+            <span class="chip">HuggingFace Transformers</span>
+            <span class="chip">scikit-learn</span>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <h4 class="skill-group-title">ML / Data Engineering</h4>
+          <div class="skill-chips">
+            <span class="chip chip-primary">Pandas</span>
+            <span class="chip chip-primary">NumPy</span>
+            <span class="chip">Matplotlib</span>
+            <span class="chip">Seaborn</span>
+            <span class="chip">Feature Engineering</span>
+            <span class="chip">A/B тестирование</span>
+            <span class="chip">Data Pipeline Design, ETL</span>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <h4 class="skill-group-title">LLM / Generative</h4>
+          <div class="skill-chips">
+            <span class="chip">LLM Scaling Laws</span>
+            <span class="chip">BPE Tokenization</span>
+            <span class="chip">AdamW / Оптимизация</span>
+            <span class="chip">LoRA / Adapters</span>
+            <span class="chip">GPT API Integration</span>
+            <span class="chip">Music VAE</span>
+            <span class="chip">MIDI Processing</span>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <h4 class="skill-group-title">Backend / Systems</h4>
+          <div class="skill-chips">
+            <span class="chip chip-primary">FastAPI</span>
+            <span class="chip">Tokio (async Rust)</span>
+            <span class="chip">TCP / Networking</span>
+            <span class="chip">Qt</span>
+            <span class="chip">SDL2</span>
+            <span class="chip">Tarantool</span>
+            <span class="chip">Docker</span>
+            <span class="chip">JSON / REST</span>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <h4 class="skill-group-title">Tools / DevOps</h4>
+          <div class="skill-chips">
+            <span class="chip">Git / GitHub</span>
+            <span class="chip">Vim</span>
+            <span class="chip">Nirvana (Яндекс)</span>
+            <span class="chip">Metabase</span>
+            <span class="chip">n8n</span>
+            <span class="chip">LaTeX</span>
+            <span class="chip">Linux</span>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <h4 class="skill-group-title">Курсы ВШЭ · ФКН ПМИ МОП</h4>
+          <div class="skill-chips">
+            <span class="chip">Линейная алгебра</span>
+            <span class="chip">Дискретная математика</span>
+            <span class="chip">Матанализ 1, 2</span>
+            <span class="chip">Теория вероятностей</span>
+            <span class="chip">Математическая статистика 1, 2</span>
+            <span class="chip">Алгоритмы и структуры данных 1, 2</span>
+            <span class="chip">Архитектура компьютера и ОС</span>
+            <span class="chip">Инструменты промышленной разработки</span>
+            <span class="chip">Python для сбора и анализа данных</span>
+            <span class="chip">Язык Python</span>
+            <span class="chip">Язык C++</span>
+            <span class="chip">Язык Rust</span>
+            <span class="chip">Машинное обучение 1, 2</span>
+            <span class="chip">Глубокое обучение 1, 2</span>
+            <span class="chip">Методы оптимизации в машинном обучении</span>
+            <span class="chip">Безопасность компьютерных систем</span>
+            <span class="chip">Аналитика данных</span>
+            <span class="chip">Численные методы</span>
+            <span class="chip">Управление цифровым продуктом</span>
+            <span class="chip">MLOps & ML System Design</span>
+            <span class="chip">НИС Машинное Обучение и Приложения 1, 2</span>
+            <span class="chip">Курсовой проект 1, 2</span>
+          </div>
+        </div>
+
       </div>
     </section>
 
