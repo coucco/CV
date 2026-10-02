@@ -202,7 +202,7 @@ img { display: block; max-width: 100%; }
   display: flex;
   align-items: center;
   gap: 7px;
-  font-size: clamp(16px, 1.35vw, 19px);
+  font-size: clamp(14px, 1.2vw, 17px);
   color: var(--text2) !important;
   transition: color var(--transition);
 }
